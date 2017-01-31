@@ -262,6 +262,7 @@ All generated files are created under ${build} directory
     <mkdir dir="${build_tests}"/>
     <javac debug="${debug}" deprecation="${deprecation}"
       srcdir="${src_tests}"
+      encoding="iso-8859-1"
       destdir="${build_tests}">
         <classpath refid="test-classpath" />
     </javac>
