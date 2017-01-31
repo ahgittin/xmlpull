@@ -143,6 +143,7 @@ All generated files are created under ${build} directory
 
   <target name="api" depends="prepare">
     <javac debug="${debug}" deprecation="${deprecation}"
+       target="1.2" source="1.2"
        srcdir="${src_api}" destdir="${build_classes}" classpath="${build_classes}"/>
   </target>
 
